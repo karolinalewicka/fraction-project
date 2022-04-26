@@ -13,10 +13,10 @@ gdzie:\
 • liczba jest liczbą całkowitą,\
 • operator to jeden ze znaków: + - * :\
 • ułamek jest zapisany jako: liczba/liczba\
-• liczba, operator, ułamek oddzielone są od siebie jednym znakiem spacji\
+• liczba, operator, ułamek oddzielone są od siebie jednym znakiem spacji
 
-Wyjście: \
-Jedyne informacje jakie program wypisuje to ułamek lub informacja o błędzie.\
+Wyjście: 
+Jedyne informacje jakie program wypisuje to ułamek lub informacja o błędzie.
 Ułamek będący wynikiem dzialania, musi być zapisany w postaci nieskracalnej. Format zapisu ułamka: liczba/liczba\
 W przypadku, gdy:\
 • użytkownik wprowadzi błędne dane,\
@@ -34,6 +34,6 @@ Szczegóły implementacyjne:\
 • własny operator / (z użyciem metody magicznej),\
 • własną funkcję __str__ zwracającą napis bedący tekstową reprezentacją ułamka.\
 Wszelkie działania na ułamkach powinny być realizowane za pomocą obiektów tej klasy.\
-Klasa ta powinna przechowywać ułamki w postaci nieskracalnej.\
+Klasa ta powinna przechowywać ułamki w postaci nieskracalnej.
 
-2. Za pomocą mechanizmu wyjątków obsłuż EOFError sygnalizujący koniec danych wejściowych.\
+2. Za pomocą mechanizmu wyjątków obsłuż EOFError sygnalizujący koniec danych wejściowych.
