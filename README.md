@@ -23,9 +23,9 @@ W przypadku, gdy:\
 • użytkownik wprowadzi dane w niepoprawnym formacie,\
 • wynikowego ułamka nie da się zapisać\
 program musi wypisać napis 'BLAD'\
-\
+
 Szczegóły implementacyjne:\
-\
+
 1. Zdefiniuj klasę Fraction będącą reprezentacją ułamka, klasa to musi posiadać:\
 • funkcję __init__ przyjmującą licznik i mianownik ułamka,\
 • własny operator + (z użyciem metody magicznej),\
@@ -35,5 +35,5 @@ Szczegóły implementacyjne:\
 • własną funkcję __str__ zwracającą napis bedący tekstową reprezentacją ułamka.\
 Wszelkie działania na ułamkach powinny być realizowane za pomocą obiektów tej klasy.\
 Klasa ta powinna przechowywać ułamki w postaci nieskracalnej.\
-\
+
 2. Za pomocą mechanizmu wyjątków obsłuż EOFError sygnalizujący koniec danych wejściowych.\
