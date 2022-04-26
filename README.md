@@ -22,9 +22,9 @@ W przypadku, gdy:\
 • użytkownik wprowadzi błędne dane,\
 • użytkownik wprowadzi dane w niepoprawnym formacie,\
 • wynikowego ułamka nie da się zapisać\
-program musi wypisać napis 'BLAD'\
+program musi wypisać napis 'BLAD'
 
-Szczegóły implementacyjne:\
+Szczegóły implementacyjne:
 
 1. Zdefiniuj klasę Fraction będącą reprezentacją ułamka, klasa to musi posiadać:\
 • funkcję __init__ przyjmującą licznik i mianownik ułamka,\
